@@ -37,7 +37,7 @@ jobs:
       #   run: |-
       #     gcloud auth configure-docker
       #     gcloud container images delete gcr.io/$PROJECT_ID/$SERVICE_NAME:Latest --quiet
-
+      #
       - name: Build
         run: |-
           gcloud builds submit \
